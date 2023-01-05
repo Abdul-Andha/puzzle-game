@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
 body {
     text-align: center;
-    background-color: blueviolet;
+    background-color: #7B2869;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
 }
 
 .piece {
@@ -13,5 +18,29 @@ body {
     vertical-align:top;
     width: 154px;
     height: 94px;
-    border: 3px groove gold;
+    border: 3px groove #FFBABA;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color:#FFBABA;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    margin: 12px 0px;
+    font-size: 24px;
+    background: none;
+    border: 1px solid #FFBABA;
+    padding: 5px 10px;
+    font-weight: 400;
+    color: white;
+}
+
+button:hover {
+    color:#FFBABA;
 }
